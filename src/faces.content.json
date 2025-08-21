@@ -1,0 +1,372 @@
+{
+  "blocks": {
+    "brandLogo": {
+      "type": "image",
+      "src": "/assets/logo.png"
+    },
+    "brandName": {
+      "type": "text",
+      "content": "Saifwebworks"
+    },
+    "mainNavigation": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "label",
+          "title": "Label",
+          "type": "text"
+        },
+        {
+          "key": "url",
+          "title": "URL",
+          "type": "url"
+        }
+      ],
+      "rows": [
+        {
+          "id": "nav1",
+          "label": "Services",
+          "url": "#services"
+        },
+        {
+          "id": "nav2",
+          "label": "Portfolio",
+          "url": "#portfolio"
+        },
+        {
+          "id": "nav3",
+          "label": "About",
+          "url": "#about"
+        },
+        {
+          "id": "nav4",
+          "label": "Contact",
+          "url": "#contact"
+        }
+      ]
+    },
+    "headerCtaButton": {
+      "type": "text",
+      "content": "Get Quote"
+    },
+    "whatsappNumber": {
+      "type": "text",
+      "content": "+923243191677"
+    },
+    "heroBadge": {
+      "type": "text",
+      "content": "Web Professional Freelancer"
+    },
+    "heroHeadline": {
+      "type": "text",
+      "content": "Building <strong>Digital Success</strong> for Local Businesses"
+    },
+    "heroDescription": {
+      "type": "text",
+      "content": "Transform your business with professional web development services. We help local businesses establish a powerful online presence that drives growth and connects with customers."
+    },
+    "heroPrimaryButton": {
+      "type": "text",
+      "content": "Start Your Project"
+    },
+    "heroSecondaryButton": {
+      "type": "text",
+      "content": "View Our Work"
+    },
+    "heroImage": {
+      "type": "image",
+      "src": "/assets/images/hero.jpg"
+    },
+    "servicesTitle": {
+      "type": "text",
+      "content": "Comprehensive Web Solutions"
+    },
+    "servicesSubtitle": {
+      "type": "text",
+      "content": "From custom websites to digital marketing, we provide everything your business needs to succeed online."
+    },
+    "servicesList": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "title",
+          "title": "Service Name",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "title": "Description",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "service1",
+          "title": "Custom Web Development",
+          "description": "Tailored websites built with modern technologies to perfectly match your business needs and brand identity."
+        },
+        {
+          "id": "service2",
+          "title": "E-commerce Solutions",
+          "description": "Complete online stores with secure payment processing, inventory management, and customer analytics."
+        },
+        {
+          "id": "service3",
+          "title": "Mobile-First Design",
+          "description": "Responsive designs that look perfect on all devices, ensuring your customers have a great experience everywhere."
+        },
+        {
+          "id": "service4",
+          "title": "SEO Optimization",
+          "description": "Search engine optimization to help your business rank higher and attract more local customers online."
+        },
+        {
+          "id": "service5",
+          "title": "Brand Identity",
+          "description": "Professional logo design and brand guidelines that make your business stand out from the competition."
+        },
+        {
+          "id": "service6",
+          "title": "Ongoing Support",
+          "description": "Reliable maintenance, updates, and technical support to keep your website running smoothly 24/7."
+        }
+      ]
+    },
+    "aboutTitle": {
+      "type": "text",
+      "content": "Empowering Local Businesses Online"
+    },
+    "aboutDescription": {
+      "type": "text",
+      "content": "At Saifwebworks, we understand the unique challenges local businesses face in the digital world. Our mission is to bridge the gap between traditional business practices and modern online opportunities."
+    },
+    "aboutFeatures": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "text",
+          "title": "Feature",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "feat1",
+          "text": "5+ years of experience in web development"
+        },
+        {
+          "id": "feat2",
+          "text": "50+ successful local business websites launched"
+        },
+        {
+          "id": "feat3",
+          "text": "Personalized approach for every client"
+        },
+        {
+          "id": "feat4",
+          "text": "Ongoing support and maintenance included"
+        }
+      ]
+    },
+    "aboutButton": {
+      "type": "text",
+      "content": "Learn More About Us"
+    },
+    "aboutImage": {
+      "type": "image",
+      "src": "/assets/images/about.jpg"
+    },
+    "portfolioTitle": {
+      "type": "text",
+      "content": "Recent Success Stories"
+    },
+    "portfolioSubtitle": {
+      "type": "text",
+      "content": "See how we've helped local businesses transform their online presence and grow their customer base."
+    },
+    "portfolioItems": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "title",
+          "title": "Project Name",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "title": "Description",
+          "type": "text"
+        },
+        {
+          "key": "category",
+          "title": "Category",
+          "type": "text"
+        },
+        {
+          "key": "image",
+          "title": "Project Image",
+          "type": "image"
+        }
+      ],
+      "rows": [
+        {
+          "id": "project1",
+          "title": "Local Restaurant Website",
+          "description": "Modern website with online ordering system that increased takeout orders by 40%.",
+          "category": "Restaurant",
+          "image": {
+            "src": "/assets/images/projects/restaurant.png"
+          }
+        },
+        {
+          "id": "project2",
+          "title": "Fitness Gym Website",
+          "description": "A fitness website designed to attract more clients, showcase your services, and boost memberships and revenue.",
+          "category": "Fitness",
+          "image": {
+            "src": "/assets/images/projects/gym.png"
+          }
+        },
+        {
+          "id": "project3",
+          "title": "Product Landing Page",
+          "description": "Stylish and comfortable shoes that keep you energized, confident, and ready for every step.",
+          "category": "Retail",
+          "image": {
+            "src": "/assets/images/projects/product.png"
+          }
+        },
+        {
+          "id": "project4",
+          "title": "Retail Store E-commerce",
+          "description": "Complete online store with inventory sync and local delivery options.",
+          "category": "Retail",
+          "image": {
+            "src": "/assets/images/projects/retail.png"
+          }
+        },
+        {
+          "id": "project5",
+          "title": "Smart Realtime Dashboard",
+          "description": "All your data, One clean view. Make smarter decisions faster.",
+          "category": "Data Analytics",
+          "image": {
+            "src": "/assets/images/projects/dashboard.png"
+          }
+        },
+        {
+          "id": "project6",
+          "title": "Real Estate Agency",
+          "description": "Property listing website with virtual tours and lead capture forms.",
+          "category": "Real Estate",
+          "image": {
+            "src": "/assets/images/projects/realestate.png"
+          }
+        }
+      ]
+    },
+    "testimonialsTitle": {
+      "type": "text",
+      "content": "What Our Clients Say"
+    },
+    "clientTestimonials": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "quote",
+          "title": "Testimonial",
+          "type": "text"
+        },
+        {
+          "key": "name",
+          "title": "Client Name",
+          "type": "text"
+        },
+        {
+          "key": "company",
+          "title": "Company",
+          "type": "text"
+        },
+        {
+          "key": "avatar",
+          "title": "Avatar",
+          "type": "image"
+        }
+      ],
+      "rows": [
+        {
+          "id": "test1",
+          "quote": "Saifwebworks transformed our online presence completely. Our website is now our best salesperson, bringing in new customers every day.",
+          "name": "Sarah Johnson",
+          "company": "Bella's Boutique",
+          "avatar": {
+            "src": "/assets/testimonial.svg"
+          }
+        },
+        {
+          "id": "test2",
+          "quote": "The team understood our needs perfectly and delivered a website that exceeded our expectations. Our online orders have tripled!",
+          "name": "Mike Chen",
+          "company": "Golden Dragon Restaurant",
+          "avatar": {
+            "src": "/assets/testimonial.svg"
+          }
+        },
+        {
+          "id": "test3",
+          "quote": "Professional, reliable, and always available for support. They made the entire process seamless and stress-free.",
+          "name": "Dr. Amanda Rodriguez",
+          "company": "Wellness Medical Center",
+          "avatar": {
+            "src": "/assets/testimonial.svg"
+          }
+        }
+      ]
+    },
+    "ctaTitle": {
+      "type": "text",
+      "content": "Ready to Grow Your Business Online?"
+    },
+    "ctaDescription": {
+      "type": "text",
+      "content": "Let's discuss how we can help you establish a powerful online presence that drives real results for your business."
+    },
+    "ctaPrimaryButton": {
+      "type": "text",
+      "content": "Get Free Consultation"
+    },
+    "ctaSecondaryButton": {
+      "type": "text",
+      "content": "View Pricing"
+    },
+    "ctaBackgroundImage": {
+      "type": "image",
+      "src": "/assets/images/cta_background.jpg"
+    },
+    "footerDescription": {
+      "type": "text",
+      "content": "Helping local businesses succeed online with professional web development services and digital solutions."
+    },
+    "footerSections": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "title",
+          "title": "Section Title",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "footer1",
+          "title": "Services",
+          "links": "Web Development, E-commerce, SEO, Branding"
+        }
+      ]
+    },
+    "footerCopyright": {
+      "type": "text",
+      "content": "© 2025 Saifwebworks. All rights reserved. Building digital success for local businesses."
+    }
+  }
+}
